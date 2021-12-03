@@ -1,0 +1,497 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Ok-Acquired/Dashboard/style.css">
+    <link rel="shortcut icon" href="/Ok-Acquired/Images/favicon.ico" type="image/x-icon">
+
+    <title>Dashboard</title>
+</head>
+
+<body>
+    <!-- ---------navbar--------- -->
+    <nav class="navbar fixed-top">
+        <div class="container-fluid px-sm-5">
+            <a class="navbar-brand" href="#">
+                <img src="/Ok-Acquired/Images/logo.png" alt="" width="200px">
+            </a>
+            <div>
+                <a href="#"><img src="/Ok-Acquired/Dashboard/Images/Group 14.png" alt=""></a>
+            </div>
+        </div>
+    </nav>
+
+    <!-- ----------welcome-section----------------->
+    <section class="welcome-section pt-5">
+        <div class="container-fluid pt-5 mt-5">
+            <div class="row">
+                <div class="vertical col-md-2 fixed-top pt-5">
+                    <div class="container pt-5 mt-5">
+                        <div class="row">
+                            <div class="col-md-12 bg mt-3"></div>
+                            <div class="col-md-12 bg mt-3"></div>
+                            <div class="col-md-12 bg mt-3"></div>
+                            <div class="col-md-12 bg mb-5 mt-3"></div>
+                            <div class="col-md-12 bg mt-5"></div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-md-10 px-5 offset-sm-2">
+                    <div class="card">
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div class="p-4">
+                                    <div class=" d-flex align-items-center flex-wrap">
+                                        <span style="font-weight: bold;font-size: 31px;line-height: 142%;">Welcome to
+                                        </span> <img src="/Ok-Acquired/Dashboard/Images/logo.png" alt="" class="mw-100">
+                                    </div>
+                                    <div>
+                                        <a class="btn btn-color mt-3" href="#">Explore more</a>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6 d-flex align-items-center">
+                                <img src="/Ok-Acquired/Dashboard/Images/Group 3917.png" alt="..." class="mw-100">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------company-listing_intellectual-property-------- -->
+    <section class="company-listing_intellectual-property pt-5">
+        <div class="container-fluid px-5">
+            <div class="row">
+                <div class="col-sm-5 offset-sm-2">
+                    <div class="card">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 m-auto">
+                                    <h3>Company<br>Listing</h3>
+                                </div>
+                                <div class="col-md-6">
+                                    <img src="/Ok-Acquired/Dashboard/Images/Company Listing.png" alt="" class="mw-100">
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+                <div class="col-sm-5">
+                    <div class="card pb-2">
+                        <div class="card-body">
+                            <div class="row">
+                                <div class="col-md-6 m-auto">
+                                    <h3>Intellectual<br>Property</h3>
+                                </div>
+                                <div class="col-md-6 d-flex align-items-start">
+                                    <img src="/Ok-Acquired/Dashboard/Images/Intellectual Property.png" alt=""
+                                        class="mw-100">
+                                    <span class="badge">Coming soon</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------form-1------------------->
+    <section class="form-1 forms pt-5">
+        <div class="container-fluid px-5">
+            <div class="card offset-sm-2">
+                <div class="card-body">
+                    <div class="float-end">
+                        <img src="/Ok-Acquired/Dashboard/Images/Form-1.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Basic Details</h3>
+                    </div>
+                    <form class="needs-validation" novalidate>
+                        <div class="form-row">
+                            <div class="col-md-6">
+                                <div>
+                                    <label for="validationCustom01" class="form-label">Company name</label>
+                                    <input type="text" class="form-control" id="validationCustom01" value="" required>
+                                    <div class="invalid-feedback">
+                                        Enter Company name
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="validationCustom02" class="form-label">Date and Year of
+                                        Incorporation</label>
+                                    <input type="date" class="form-control" id="validationCustom02" value="" required>
+                                    <div class="invalid-feedback">
+                                        Enter a valid DOB
+                                    </div>
+                                </div>
+                                <div class="mt-1"> 
+                                    <label for="validationCustom03" class="form-label">Company Type</label>
+                                    <select class="form-select" id="validationCustom03" required>
+                                        <option selected disabled value="">Choose your company type</option>
+                                        <option>Ptd. (Private Limited)</option>
+                                        <option>LLP (Limited Liability Partnership)</option>
+                                        <option>OPC (One Person Company)</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a Company type.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <label for="validationCustom04" class="form-label">Industry</label>
+                                        </div>
+                                        <div class="avatar"
+                                            data-tooltip="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper tempus enim ac ultricies libero, donec. ">
+                                            <img src="/Ok-Acquired/Dashboard/Images/info-circle.png" alt="">
+                                        </div>
+                                    </div>
+                                    <select class="form-select" id="validationCustom04" required>
+                                        <option selected disabled value="">Choose a industry</option>
+                                        <option>IT</option>
+                                        <option>Agriculture</option>
+                                        <option>Constructions</option>
+                                        <option>Real Estate</option>
+                                        <option>Food</option>
+                                    </select>
+                                    <div class="invalid-feedback">
+                                        Please select a valid Industry.
+                                    </div>
+                                </div>
+                                <p class="form-label">ROC Compliance Status</p>
+                                <div class="d-flex mt-4">
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault1">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Yes
+                                        </label>
+                                    </div>
+                                    <div class="form-check mx-3">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault2" checked>
+                                        <label class="form-check-label" for="flexRadioDefault2">
+                                            No
+                                        </label>
+                                    </div>
+                                    <div class="form-check">
+                                        <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                            id="flexRadioDefault2">
+                                        <label class="form-check-label" for="flexRadioDefault1">
+                                            Maybe
+                                        </label>
+                                    </div>
+                                </div>
+                                <div>
+                                    <div class="d-flex justify-content-between align-items-center">
+                                        <div>
+                                            <label for="validationCustom05" class="form-label">Company Location</label>
+                                        </div>
+                                        <div class="avatar"
+                                            data-tooltip="Lorem ipsum dolor sit amet, consectetur adipiscing elit. Ullamcorper tempus enim ac ultricies libero, donec. ">
+                                            <img src="/Ok-Acquired/Dashboard/Images/info-circle.png" alt="">
+                                        </div>
+                                    </div>
+                                    <input type="text" class="form-control" id="validationCustom05" value="" required>
+                                    <div class="valid-feedback">
+                                        Please enter a valid Location.
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-12">
+
+                                <div class="mb-3">
+                                    <label for="validationTextarea" class="form-label">Company Brief Description</label>
+                                    <textarea class="form-control" id="validationTextarea"
+                                        placeholder="Write company description" required></textarea>
+                                    <div class="invalid-feedback">
+                                        Write company description.
+                                    </div>
+                                </div>
+                            </div>
+
+                            <button type="submit" class="btn btn-color btn-lg btn-block">Submit</button>
+                    </form>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------form-2------------------->
+    <section class="form-2 forms pt-5">
+        <div class="container-fluid px-5">
+            <div class="card offset-sm-2">
+                <div class="card-body">
+                    <div class="float-end">
+                        <img src="/Ok-Acquired/Dashboard/Images/Form-2.png" alt="">
+                    </div>
+                    <div>
+                        <h3>Director Details</h3>
+                    </div>
+                    <div id="add-director">
+                        <div id="field0">
+                            <form class="needs-validation" novalidate>
+                                <div class="row">
+                                    <div class="col-md-6">
+                                        <div>
+                                            <label for="validationCustom01" class="form-label">Name of Director</label>
+                                            <input type="text" class="form-control"
+                                                placeholder="Enter director full name" id="validationCustom01" value=""
+                                                required>
+                                            <div class="invalid-feedback">
+                                                Enter Company name
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label for="validationCustom02" class="form-label">Email address</label>
+                                            <input type="email" class="form-control"
+                                                placeholder="Enter director email address" id="validationCustom02"
+                                                value="" required>
+                                            <div class="invalid-feedback">
+                                                Enter a valid DOB
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label for="validationCustom02" class="form-label">Director PAN Card</label>
+                                            <input type="file" multiple class="form-control"
+                                                placeholder="Enter director email address" id="validationCustom02"
+                                                value="" required>
+                                            <div class="invalid-feedback">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                    <div class="col-md-6">
+                                        <div>
+                                            <label for="validationCustom02" class="form-label">Director Phone
+                                                number</label>
+                                            <input type="tel" class="form-control"
+                                                placeholder="Enter director phone number" id="validationCustom02"
+                                                value="" required>
+                                            <div class="invalid-feedback">
+
+                                            </div>
+                                        </div>
+                                        <div>
+                                            <label for="validationCustom02" class="form-label">Director Aadhaar
+                                                Details</label>
+                                            <input type="file" multiple class="form-control"
+                                                placeholder="Enter director email address" id="validationCustom02"
+                                                value="" required>
+                                            <div class="invalid-feedback">
+
+                                            </div>
+                                        </div>
+                                    </div>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                    <div class="d-grid gap-2 mx-auto pt-4 pb-2">
+                        <button id="add-more" name="add-more" class="btn btn-color btn-lg btn-block">+ Add more
+                            directors</button>
+                    </div>
+                    <div class="row">
+                        <div class="col-md-6">
+                            <label for="validationCustom01" class="form-label">Paid up Capital</label>
+                            <input type="text" class="form-control" placeholder="Enter authorized capital"
+                                id="validationCustom01" value="" required>
+                            <div class="invalid-feedback">
+
+                            </div>
+                        </div>
+                        <div class="col-md-6">
+                            <p class="form-label">Loan & Liability</p>
+                            <div class="d-flex">
+                                <div class="form-check">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault1">
+                                    <label class="form-check-label" for="flexRadioDefault1">
+                                        Yes
+                                    </label>
+                                </div>
+                                <div class="form-check mx-3">
+                                    <input class="form-check-input" type="radio" name="flexRadioDefault"
+                                        id="flexRadioDefault2" checked>
+                                    <label class="form-check-label" for="flexRadioDefault2">
+                                        No
+                                    </label>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="d-grid gap-2 mx-auto pb-2 pt-5">
+                        <button type="submit" class="btn btn-color btn-lg btn-block">Submit</button>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- ----------form-3------------------->
+    <section class="form-3 forms pt-5">
+        <div class="container-fluid px-5">
+            <div class="card offset-sm-2">
+                <div class="card-body">
+                    <div class="float-end">
+                        <img src="/Ok-Acquired/Dashboard/Images/Form-3.png" alt="">
+                    </div>
+                    <div class="d-flex align-items-center flex-wrap gap-2 fw-bold">
+                        <h3>Company Documents</h3><span class="pt-sm-2">(Get Ok! Aquired verified)</span>
+                    </div>
+                    <form class="needs-validation" novalidate>
+                        <div class="row">
+                            <div class="col-md-6">
+                                <div>
+                                    <label for="validationCustom01" class="form-label">Company Incorporation
+                                        Certificate</label>
+                                    <input type="file" multiple class="form-control" id="validationCustom01" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+    
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="validationCustom01" class="form-label">Company AOA</label>
+                                    <input type="file" multiple class="form-control" id="validationCustom01" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+    
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="validationCustom01" class="form-label">Company TAN Details</label>
+                                    <input type="text" placeholder="Enter Your Company TAN Number" class="form-control"
+                                        id="validationCustom01" value="" required>
+                                    <div class="invalid-feedback">
+                                        Enter Company TAN Details
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="validationCustom01" class="form-label">Company ITR</label>
+                                    <input type="file" multiple class="form-control" id="validationCustom01" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col-md-6">
+                                <div>
+                                    <label for="validationCustom01" class="form-label">Company MOA</label>
+                                    <input type="file" multiple class="form-control" id="validationCustom01" value=""
+                                        required>
+                                    <div class="invalid-feedback">
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="validationCustom01" class="form-label">Company PAN Card Number</label>
+                                    <input type="text" class="form-control" id="validationCustom01"
+                                        placeholder="Enter company PAN card number" value="" required>
+                                    <div class="invalid-feedback">
+    
+                                    </div>
+                                </div>
+                                <div>
+                                    <label for="validationCustom05" class="form-label">Company ROC</label>
+                                    <input type="file" multiple class="form-control" id="validationCustom01" value=""
+                                        required>
+                                    <div class="valid-feedback">
+    
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="d-grid gap-2 mx-auto pb-2 pt-4">
+                            <button class="btn btn-color btn-lg btn-block" type="submit">Submit</button>
+                        </div>
+                    </form>
+
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+    <!-- -------Good-Pricing----------- -->
+    <section class="good-pricing forms pt-5">
+        <div class="container-fluid px-5">
+            <div class="card offset-sm-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Set your Price</h3>
+                            <label for="validationCustom01" class="form-label">Pricing</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="40K" required>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-end">
+                            <img src="/Ok-Acquired/Dashboard/Images/Great-pricing.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ------------Bad-Pricing---------------->
+    <section class="bad-pricing forms py-5">
+        <div class="container-fluid px-5">
+            <div class="card offset-sm-2">
+                <div class="card-body">
+                    <div class="row">
+                        <div class="col-md-6">
+                            <h3>Set your Price</h3>
+                            <label for="validationCustom01" class="form-label">Pricing</label>
+                            <input type="text" class="form-control" id="validationCustom01" value="1.7L" required>
+                        </div>
+                        <div class="col-md-6 d-flex align-items-end">
+                            <img src="/Ok-Acquired/Dashboard/Images/Bad-pricing.png" alt="">
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+
+
+
+    <!-- Optional JavaScript; choose one of the two! -->
+    <script src="//maxcdn.bootstrapcdn.com/bootstrap/3.3.0/js/bootstrap.min.js"></script>
+    <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/Ok-Acquired/Dashboard/script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script>
+    -->
+</body>
+
+</html>

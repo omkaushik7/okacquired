@@ -1,0 +1,657 @@
+<!doctype html>
+<html lang="en">
+
+<head>
+    <!-- Required meta tags -->
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <!-- -------fontawesome-------  -->
+    <script src="https://kit.fontawesome.com/399ce3e909.js" crossorigin="anonymous"></script>
+
+
+    <!-- Bootstrap CSS -->
+    <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css"
+        integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+    <link rel="stylesheet" href="/Ok-Acquired/style.css">
+    <link rel="shortcut icon" href="/Ok-Acquired/Images/favicon.ico" type="image/x-icon">
+
+    <title>Ok!Acquired</title>
+</head>
+
+<body>
+    <!-- Navbar -->
+
+    <nav class="navbar navbar-expand-lg navbar-light pt-3 pb-3">
+        <div class="container">
+            <a class="navbar-brand" href="#"><img src="/Ok-Acquired/images/logo.png" alt="logo" width="200px"></a>
+            <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup"
+                aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
+                <span class="navbar-toggler-icon"></span>
+            </button>
+            <div class="collapse navbar-collapse justify-content-around" id="navbarNavAltMarkup">
+                <ul class="navbar-nav me-auto ms-auto mb-2 mb-lg-0">
+                    <li class="nav-item">
+                        <a class="nav-link active" aria-current="page" href="/Ok-Acquired/index.html">Home</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Ok-Acquired/How-it-Work/index.html">How it works</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Ok-Acquired/list/index.html">List</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Ok-Acquired/About/index.html">About</a>
+                    </li>
+                    <li class="nav-item">
+                        <a class="nav-link" href="/Ok-Acquired/Contact/index.html">Contact</a>
+                    </li>
+                </ul>
+                <div>
+                    <a class="btn btn-color mt-2" href="#">Sell My Company</a>
+                    <a class="btn btn-outline mt-2" href="#">Buy A Company</a>
+                </div>
+            </div>
+        </div>
+    </nav>
+
+
+    <section class="hero-section">
+        <div class="container">
+            <div class="banner_margin_top">
+                <div class="row justify-content-centre">
+                    <div class="col-md-6">
+                        <h2 class="heading">India's #1 Place to Buy & Sell Companies</h2>
+                        <p class="description">One and only place to find the best deal for your company</p>
+                        <div class="pt-3 pb-3">
+                            <a class="btn btn-color mt-4" href="#">Sell My Company</a>
+                            <a class="btn btn-outline mt-4" href="#">Buy A Company</a>
+                        </div>
+                        <p><span class="pt-3" style="color: #F43D00;">Trusted by</span><br>India’s most valuable company
+                            owners
+                        </p>
+                        <div class="pb-3">
+                            <img src="/Ok-Acquired/images/Group 3928.png" alt="" class="w-100">
+                        </div>
+                    </div>
+                    <div class="col-md-6">
+                        <img class="mw-100" src="/Ok-Acquired/images/Group 3927.png" alt="">
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+    <!-- -------------------------------------------- -->
+    <div class="container">
+        <div class="banner_margin_top">
+            <div class="row justify-content-centre">
+                <div class="col-md-6">
+                    <img class="mw-100" src="/Ok-Acquired/images/Group 3584.png" alt="">
+                </div>
+
+                <div class="col-md-6">
+                    <h2 class="heading mt-5 pt-4">Discover over 1,000 company owners buying & selling companies on
+                        <span style="color: #F43D00;">Ok! Acquired</span>
+                    </h2>
+                    <div>
+                        <img src="/Ok-Acquired/images/Group 3583.png" alt="">
+                    </div>
+                    <ul class="cities_list">
+                        <li class="cities">Noida</li>
+                        <li class="cities">Mumbai</li>
+                        <li class="cities">Bengaluru</li>
+                        <li class="cities">Hyderabad</li>
+                        <li class="cities">Kolkata</li>
+                        <li class="cities">Nagpur</li>
+                        <li class="cities">Kanpur</li>
+                        <li class="cities">Gurgaon</li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+
+    <!-- ---------------------------How it works--------------- -->
+    <section class="how-it-works">
+        <div class="container">
+            <div class="banner_margin_top">
+                <p class="text-center section-name">How it works</p>
+                <h3 class="text-center heading">Get the Best Deal in 3 Simple Steps</h3>
+                <p class="description text-center padding"> Don’t waste months looking for the best
+                    buyers/sellers, Ok!
+                    Acquired cut all the noises and help you find the best deals effortlessly</p>
+                <div class="text-center" id="myBtnContainer">
+                    <button class="btn Active" onclick="filterSelection('for-buyers')"> For Buyers</button>
+                    <button class="btn" onclick="filterSelection('for-sellers')"> For Sellers</button>
+                </div>
+                <div class="container d-flex mt-5 justify-content-center flex-wrap" style="gap: 30px;">
+                    <div class="how-it-works-cards for-buyers">
+                        <div class="col-md-3">
+                            <div class="card">
+
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="/Ok-Acquired/Images/Setup your account.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="bg-color" src="/Ok-Acquired/Images/Path 15.png" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="card-title pt-2"> Setup your account</h5>
+                                <p class="card-text">It takes less than 3 mins.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="how-it-works-cards for-buyers">
+                        <div class="col-md-3">
+
+                            <div class="card">
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="/Ok-Acquired/Images/Discover Deals.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="bg-color" src="/Ok-Acquired/Images/Path 15.png" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="card-title pt-2"> Discover Deals</h5>
+                                <p class="card-text">Explore the best-listed deals and make your move.
+                                </p>
+                            </div>
+
+                        </div>
+                    </div>
+                    <div class="how-it-works-cards for-buyers">
+                        <div class="col-md-3">
+                            <div class="card">
+
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="/Ok-Acquired/Images/Get the best deal.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="bg-color" src="/Ok-Acquired/Images/Path 15.png" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="card-title pt-2"> Get the best deal</h5>
+                                <p class="card-text">Congratulations, You have made the best decision of
+                                    your
+                                    life.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="how-it-works-cards for-sellers">
+                        <div class="col-md-3">
+                            <div class="card">
+
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="/Ok-Acquired/Images/List the company.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="bg-color" src="/Ok-Acquired/Images/Path 15.png" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="card-title pt-2"> List the company</h5>
+                                <p class="card-text">Add details about your company and make it visible to
+                                    buyers
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="how-it-works-cards for-sellers">
+                        <div class="col-md-3">
+                            <div class="card">
+
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="/Ok-Acquired/Images/Get matched Buyers.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="bg-color" src="/Ok-Acquired/Images/Path 15.png" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="card-title pt-2"> Get matched Buyers</h5>
+                                <p class="card-text">We’ll bring you, potential buyers, you choose who can
+                                    bid.
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                    <div class="how-it-works-cards for-sellers">
+                        <div class="col-md-3">
+                            <div class="card">
+
+                                <div class="d-flex justify-content-between">
+                                    <div>
+                                        <img src="/Ok-Acquired/Images/Make the Sale.png" alt="">
+                                    </div>
+                                    <div>
+                                        <img class="bg-color" src="/Ok-Acquired/Images/Path 15.png" alt="">
+                                    </div>
+                                </div>
+                                <h5 class="card-title pt-2"> Make the Sale</h5>
+                                <p class="card-text">Get the best buyer and confirm the deal
+                                </p>
+
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- --------------------------Why Ok! Acquired? section---------- -->
+    <section class="why-ok-acquired-section">
+        <div class="container">
+            <div class="banner_margin_top">
+                <p class="text-center section-name">Why Ok! Acquired?</p>
+                <h3 class="text-center px-sm-5 heading">Get rid of approaching complex ways to buy and sell your company
+                </h3>
+                <p class="description text-center my-5"> Ok! Acquired is the only place that makes buying and
+                    selling
+                    companies hassle-free</p>
+                <div class="row mt-4 mb-4">
+
+                    <div class="col-lg-4 mb-4">
+
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div><img class="me-3" src="/Ok-Acquired/images/Group 3598.png" alt="">
+                                    </div>
+                                    <h5>Single platform for everything</h5>
+                                </div>
+                                <p class="card-text text-muted pt-1">Manage every steps from one place without any
+                                    worries
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div><img class="me-3" src="/Ok-Acquired/images/Group 3597.png" alt="">
+                                    </div>
+                                    <h5>Access a super easy dashboard</h5>
+                                </div>
+                                <p class="card-text text-muted pt-1">Super easy dashboard makes buying and selling a lot
+                                    easier
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div><img class="me-3" src="/Ok-Acquired/images/Group 3590.png" alt="">
+                                    </div>
+                                    <h5>Bids from Verified Dealers</h5>
+                                </div>
+                                <p class="card-text text-muted pt-1">Get bids from verified dealers, a spam-free network
+                                    of
+                                    dealers
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div><img class="me-3" src="/Ok-Acquired/images/Group 3591.png" alt="">
+                                    </div>
+                                    <h5>AI based document verification</h5>
+                                </div>
+                                <p class="card-text text-muted pt-1">Every single document will be verified by
+                                    artificial
+                                    intelligence
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div><img class="me-3" src="/Ok-Acquired/images/Group 3596.png" alt="">
+                                    </div>
+                                    <h5>Zero charge on listing your company</h5>
+                                </div>
+                                <p class="card-text text-muted pt-1">It takes less than 3 mins to list your company at
+                                    zero
+                                    charge
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="col-lg-4 mb-4">
+                        <div class="card">
+                            <div class="card-body">
+                                <div class="d-flex">
+                                    <div><img class="me-3" src="/Ok-Acquired/images/Group 3595.png" alt="">
+                                    </div>
+                                    <h5>Best deals in your inbox every week</h5>
+                                </div>
+                                <p class="card-text text-muted pt-1">Get hand picked deals every week direct into your
+                                    inbox
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!-- -----------------Testimonials section---------- -->
+    <section class="testimonials-section">
+        <div class="container">
+            <div class="banner_margin_top">
+                <p class="text-center section-name">Testimonials</p>
+                <h3 class="text-center heading">What other says about us</h3>
+                <p class="description text-center text-padding"> Don’t waste months looking for the best buyers/sellers,
+                    Ok!
+                    Acquired cut all the noises and help you find the best deals effortlessly</p>
+
+                <div>
+                    <div id="carouselExampleControls" class="carousel slide" data-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <div class="card text-center">
+                                    <div>
+                                        <img src="/Ok-Acquired/Images/Kishlay.png" alt="Kishlay">
+                                    </div>
+                                    <h3 class="name">Kishlay</h3>
+                                    <p class="company-name">CEO of ApnaBiz</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                    </div>
+                                    <div class="testimonial">
+                                        <p>I have used almost every marketplace out there to
+                                            buy and sell-side projects, but Ok! Acquired stands out for buyer quality
+                                            and ease of use. Within 2 days I had more qualified leads than I got in 2
+                                            months on other platforms.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card text-center">
+                                    <div>
+                                        <img src="/Ok-Acquired/Images/testimonial-1.png" alt="Kishlay">
+                                    </div>
+                                    <h3 class="name">Name</h3>
+                                    <p class="company-name">______</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                    </div>
+                                    <div class="testimonial">
+                                        <p>I have used almost every marketplace out there to
+                                            buy and sell-side projects, but Ok! Acquired stands out for buyer quality
+                                            and ease of use. Within 2 days I had more qualified leads than I got in 2
+                                            months on other platforms.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                            <div class="carousel-item">
+                                <div class="card text-center">
+                                    <div>
+                                        <img src="/Ok-Acquired/Images/testimonial-2.png" alt="Kishlay">
+                                    </div>
+                                    <h3 class="name">Name</h3>
+                                    <p class="company-name">______</p>
+                                    <div class="rating">
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                        <i class="fas fa-star" style="color:#FEC107;"></i>
+                                    </div>
+                                    <div class="testimonial">
+                                        <p>I have used almost every marketplace out there to
+                                            buy and sell-side projects, but Ok! Acquired stands out for buyer quality
+                                            and ease of use. Within 2 days I had more qualified leads than I got in 2
+                                            months on other platforms.</p>
+                                    </div>
+
+                                </div>
+                            </div>
+                        </div>
+                        <a class="carousel-control-prev" href="#carouselExampleControls" role="button"
+                            data-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Previous</span>
+                        </a>
+                        <a class="carousel-control-next" href="#carouselExampleControls" role="button"
+                            data-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="sr-only">Next</span>
+                        </a>
+                    </div>
+                </div>
+
+            </div>
+        </div>
+    </section>
+
+
+    <!-- ---------- Asked Questions----------- -->
+    <section class="asked-questions">
+        <div class="container">
+            <div class="banner_margin_top">
+                <p class="text-center section-name">Frequently Asked Questions</p>
+                <h2 class="text-center heading pb-5">Still have questions? We have got you </h2>
+                <div class="row justify-content-centre">
+                    <div class="col-md-6">
+                        <img class="h-100 mw-100" src="/Ok-Acquired/images/businessman-dress-code-having-question 1.png"
+                            alt="">
+                    </div>
+
+                    <div class="col-md-6">
+                        <div id="accordion" class="accordion">
+                            <div class="card">
+                                <div class="card_header " data-toggle="collapse"  href="#collapseOne">
+                                    <a class="card-title">
+                                        What will be the charge to list my company to sell?
+                                    </a>
+                                </div>
+                                <div id="collapseOne" class=" collapse show" data-parent="#accordion">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card_header collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseTwo">
+                                    <a class="card-title">
+                                        How can I contact buyers?
+                                    </a>
+                                </div>
+                                <div id="collapseTwo" class="collapse" data-parent="#accordion">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card_header collapsed" data-toggle="collapse" data-parent="#accordion"
+                                    href="#collapseThree">
+                                    <a class="card-title">
+                                        How long it will take to complete the whole process?
+                                    </a>
+                                </div>
+                                <div id="collapseThree" class="collapse" data-parent="#accordion">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry.
+                                        Lorem
+                                        Ipsum has been the industry's standard.</p>
+                                </div>
+                            </div>
+                            <div class="card">
+                                <div class="card_header collapsed" data-toggle="collapse" href="#collapsefour">
+                                    <a class="card-title">
+                                        How will I receive the amount?
+                                    </a>
+                                </div>
+                                <div id="collapsefour" class="collapse" data-parent="#accordion">
+                                    <p>Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem
+                                        Ipsum has been the industry's standard.</p>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        </div>
+    </section>
+
+
+    <!-- ------------------Guide-me section---------- -->
+    <section class="guide-me-section">
+        <div class="container">
+            <div class="banner_margin_top">
+                <div class="card card-bg text-dark">
+                    <div class="row">
+                        <div class="col-lg-8">
+                            <div>
+                                <h4>Start Buying & Selling Companies from India’s First Marketplace</h4>
+                                <a class="btn btn-color mt-3" href="#">Guide-me</a>
+                            </div>
+                        </div>
+                        <div class="col-lg-4">
+                            <div>
+                                <img src="/Ok-Acquired/Images/guide_me.png" alt="">
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </section>
+
+
+    <!--------------------- footer ------------------>
+    <footer class="footer">
+        <div class="container">
+            <div class="banner_margin_top">
+                <div class="pt-5 pb-3 d-flex justify-content-evenly">
+                    <div class="row d-flex flex-lg-wrap">
+                        <div class="col-md-3">
+                            <div>
+                                <img src="/Ok-Acquired/Images/logo.png" alt="logo" style="width: 200px;">
+                                <p class="text-left text-muted my-4">One and only place to find the best deal for your
+                                    company
+                                </p>
+                            </div>
+
+                            <div class="social-media">
+                                <ul class="list-unstyled">
+                                    <li><a class="link-dark" href="#"><img src="/Ok-Acquired/Images/facebookicon.png"
+                                                alt=""></a></li>
+                                    <li><a class="link-dark" href="#"><img src="/Ok-Acquired/Images/twittericon.png"
+                                                alt=""></a></li>
+                                    <li><a class="link-dark" href="#"><img src="/Ok-Acquired/Images/instagramicon.png"
+                                                alt=""></a></li>
+                                    <li><a class="link-dark" href="#"><img src="/Ok-Acquired/Images/linkedinicon.png"
+                                                alt=""></a></li>
+                                </ul>
+                            </div>
+                        </div>
+                        <div class="col-lg-2">
+                            <h5 class="pages">Pages</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Home</a></li>
+                                <li class="nav-item mb-3"><a href="#how-it-works" class="nav-link p-0 text-muted">How it
+                                        works</a></li>
+                                <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">About</a></li>
+                                <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted">Contact</a></li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-3">
+                            <h5 class="contact-info">Contact info</h5>
+                            <ul class="nav flex-column">
+                                <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted"><img
+                                            src="/Ok-Acquired/Images/phone.png" alt="">+91 00000 00000</a></li>
+                                <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted"><img
+                                            src="/Ok-Acquired/Images/mail.png" alt=""> email@company.com</a></li>
+                                <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted"><img
+                                            src="/Ok-Acquired/Images/location.png" alt=""> Delhi, India</a></li>
+                                <li class="nav-item mb-3"><a href="#" class="nav-link p-0 text-muted"><img
+                                            src="/Ok-Acquired/Images/time.png" alt=""> Open Mon - Fri (10am - 8pm)</a>
+                                </li>
+                            </ul>
+                        </div>
+
+                        <div class="col-lg-4">
+                            <form>
+                                <h5 class="subscribe">Get Latest information</h5>
+                                <div class="d-flex w-100">
+                                    <input id="newsletter1" type="email" class="form-control"
+                                        placeholder="Email address">
+                                    <button class="btn subscribe-btn" type="button">Subscribe</button>
+                                </div>
+                            </form>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </div>
+        <div class="all-rights-reserved d-flex justify-content-centre py-3 mt-4">
+            <p class="m-auto">© 2021 Company, Inc. All rights reserved.</p>
+        </div>
+    </footer>
+
+    <!-- Optional JavaScript; choose one of the two! -->
+
+    <!-- Option 1: Bootstrap Bundle with Popper -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+        integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+        crossorigin="anonymous"></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+        integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+        crossorigin="anonymous"></script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js"
+        integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl"
+        crossorigin="anonymous"></script>
+    <script src="/Ok-Acquired/script.js"></script>
+
+    <!-- Option 2: Separate Popper and Bootstrap JS -->
+    <!--
+    <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.10.2/dist/umd/popper.min.js" integrity="sha384-7+zCNj/IqJ95wo16oMtfsKbZ9ccEh31eOz1HGyDuCQ6wgnyJNSYdrPa03rtR1zdB" crossorigin="anonymous"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.1.3/dist/js/bootstrap.min.js" integrity="sha384-QJHtvGhmr9XOIpI6YVutG+2QOK9T+ZnN4kzFN1RtK3zEFEIsxhlmWl5/YESvpZ13" crossorigin="anonymous"></script> -->
+
+</body>
+
+</html>

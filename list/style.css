@@ -1,0 +1,99 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+body{
+  font-family: 'Manrope', sans-serif;
+}
+  .filter-list {
+    text-align: center;
+    padding:30px  0;
+    width: 100%;
+  }
+  
+  .company-listing .btn{
+    color: #050505;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+    padding: 10px 20px;
+    background-color:#FFFFFF;
+    border-radius: 8px;
+  }
+  .btn:focus{
+    box-shadow: 0px 8px 14px rgba(255, 221, 0, 0.2);
+}
+  
+  .company-listing .filter-list .btn.active {
+    background: #FFDD00;
+    border-radius: 8px; 
+    color: #050505;
+    font-weight: 600;
+    font-size: 18px;
+    line-height: 25px;
+  }
+  .company-listing .card{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 50px rgba(0, 0, 0, 0.05);
+    border: transparent;
+    border-radius: 16px;
+    padding:20px 24px;
+  }
+  .badge-color{
+    background: #FFF9D1;
+    border-radius: 8px;
+    color:#050505;
+    padding: 8px 14px;
+  }
+  .company_name h5{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #000000;
+  }
+  .company_name p{
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 164.6%;
+    color: #707070;
+  }
+
+  .location{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #050505;
+  }
+  .clock{
+    font-weight: 600;
+    font-size: 15px;
+    line-height: 20px;
+    color: #050505;
+  }
+  .types p{
+    color: #707070;
+  }
+  .type{
+    color: #050505;
+  }
+  .company-listing .card .btn-color{
+    background: #FFDD00;
+    box-shadow: 0px 8px 14px rgba(255, 221, 0, 0.2);
+    border-radius: 6px;
+    padding: 10px 22px;
+    font-weight: bold;
+    font-size: 16px;
+    line-height: 22px;
+    color: #050505;
+  }
+  .cards{
+    transition: 0.5s;
+    margin-bottom: 44px;
+  }
+  .guide-me-section img {
+    position: absolute;
+    top: -88px;
+    right: 0;
+}
+  

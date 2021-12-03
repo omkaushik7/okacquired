@@ -1,0 +1,374 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Manrope', sans-serif;
+    
+}
+a:hover{
+    color: unset;
+}
+
+/* -------------brand-btn----------------------------------------- */
+.btn-color{
+    background: #FFDD00;
+    box-shadow: 0px 8px 14px rgba(255, 221, 0, 0.2);
+    border-radius: 6px;
+    padding: 14px 22px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #050505;
+
+}
+.btn-color:focus{
+    box-shadow: 0px 8px 14px rgba(255, 221, 0, 0.2);
+}
+.btn-outline{
+    border: 1px solid #050505;
+    border-radius: 6px;
+    padding: 14px 22px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #050505;
+
+}
+.btn-outline:focus{
+    box-shadow: none;
+}
+.banner_margin_top{
+    margin-top: 90px;
+}
+/* --------brand-btn-end------------------------------- */
+.nav-link{
+    font-size: 18px;
+    font-family: 'Manrope', sans-serif;
+    font-weight: 600;
+    line-height: 25px;
+    color: #707070;
+    font-style: normal;
+
+}
+/* --------brand-heading---------- */
+.heading{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 55px;
+    color: #050505;
+}
+.description{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 164%;
+    color: #707070;
+}
+.cities{
+    box-shadow: 0px 10px 22px rgba(0, 0, 0, 0.04);
+    border: 1px solid rgba(0, 0, 0, 0.1);
+    border-radius: 12px;
+    padding: 10px 22px;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    width: min-content;
+}
+.cities_list{
+    width: 100%;
+    list-style-type: none;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: flex-start;
+    align-items: center;
+    gap: 10px;
+}
+
+.section-name{
+    font-weight: 700;
+    font-size: 20px;
+    line-height: 27px;
+    text-transform: uppercase;
+    color: #F43D00;
+    padding-top: 70px;
+    padding-bottom: 15px;
+}
+.how-it-works .container{
+    padding-bottom: 50px;
+}
+.how-it-works .btn {
+    border:transparent;
+    box-sizing: border-box;
+    border-radius: 37px;
+    padding: 14px 28px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #050505;
+}
+.how-it-works .btn.Active {
+    background: #FFDD00;
+    box-shadow: 0px 8px 14px rgba(255, 221, 0, 0.2);
+    border: transparent;
+    border-radius: 37px;
+    padding: 14px 28px;
+}
+.btn:focus{
+    box-shadow: none;
+}
+.how-it-works-cards{
+    display:none;
+}
+.show {
+    display: block;
+}
+
+.how-it-works .card{
+    background: #FFFFFF;
+    box-shadow: 0px 9px 34px rgba(0, 0, 0, 0.05);
+    border: transparent;
+    border-radius: 21px;
+    width: 270px;
+    height: 260px;
+    margin: auto;
+    padding:28px 24px;
+    transition: 0.5s;
+}
+.how-it-works .card h5{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 34px;
+    color: #050505;
+}
+
+.how-it-works .card-text{
+    font-size: 15px;
+    color: #707070;
+
+}
+.how-it-works .bg-color:hover{
+    background-image:url(/Ok-Acquired/Images/Path\ 14.png);
+}
+
+ /* --------testimonials-section------------------------- */
+.testimonials-section{
+    position: relative;
+    padding-bottom: 170px;
+    
+}
+.testimonials-section::before{
+    content: "";
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 940px;
+    background-image: url(/Ok-Acquired/Images/testimonial_bg.png);
+    background-size: 908px;
+    background-repeat: no-repeat;
+    background-position: center;
+}
+.testimonials-section .text-padding , .how-it-works .text-padding{
+    padding: 0 138px;
+}
+.testimonials-section .card{
+    background: transparent;
+    border: transparent;
+    padding-top: 20px;
+}
+.testimonial{
+    padding: 12px 250px;
+}
+.testimonials-section img{
+    width: 15%;
+}
+
+.testimonials-section .name{
+    font-weight: bold;
+    font-size: 26px;
+    line-height: 140%;
+    color: #050505;
+    margin-top: 20px;
+}
+.testimonials-section .company-name{
+    font-size: 18px;
+    line-height: 140%;
+    color: #707070;
+}
+/* ///////////////////////////////////////////////////// */
+
+/* --------why-ok-acquired-section---------- */
+.why-ok-acquired-section .card{
+    border-radius: 16px;
+    border: 2px solid transparent;
+    box-shadow: 0px 22px 50px rgba(0, 0, 0, 0.05);
+
+}
+.why-ok-acquired-section .card .card-body{
+    padding: 42px 34px;
+}
+.why-ok-acquired-section h5{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 140%;
+    color: #050505;
+    margin-left: 10px;
+}
+/* ---------------------------------------------- */
+.how-it-works , .how-it-works .container, .testimonials-section , .testimonials-section .container{
+    background: #FBFBFB;
+}
+.carousel-control-prev-icon{
+    background-image: url(/Ok-Acquired/Images/previous-icon.png);
+    width: 4rem;
+    height: 3rem;
+}
+.carousel-control-next-icon{
+    background-image: url(/Ok-Acquired/Images/next-icon.png);
+    width: 4rem;
+    height: 3rem;
+}
+.carousel-control-prev , .carousel-control-next{
+    opacity:1;
+}
+
+.asked-questions .card{
+    padding: 20px 20px;
+    border: 1px solid rgba(0, 0, 0, 0.15);
+    border-radius: 14px; 
+    margin-top: 34px;
+}
+.asked-questions .card a{
+    font-size: 20px;
+    line-height: 140%;
+    color: #050505;
+}
+.asked-questions .card_header{
+    cursor: pointer;
+}
+.asked-questions .accordion .card p{
+    padding-top: 20px;
+    color: #707070;
+}
+.asked-questions .accordion .card_header:after {
+    content: url(/Ok-Acquired/Images/Minus.png);
+    float: right; 
+}
+.asked-questions .accordion .card_header.collapsed:after {
+    content: url(/Ok-Acquired/Images/Plus.png); 
+    float:right;
+}
+.guide-me-section{
+    margin-top: 150px;
+}
+.guide-me-section .btn{
+    background: #FFFFFF;
+    border-radius: 12px;
+    box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.06);
+    padding: 16px 26px;
+    margin-left:43px;
+}
+.guide-me-section .card-bg{
+    position: relative;
+    background-color: #FFDD00;
+    border: transparent;
+    border-radius: 63px 0 65px 0;
+    padding: 0 0 47px;
+    background-image: url(/Ok-Acquired/Images/Group\ 3945.png);
+    background-repeat: no-repeat;
+    background-position:center;
+}
+.guide-me-section img{
+    position: absolute;
+    top: -82px;
+    right: 0;
+}
+.guide-me-section h4{
+    padding: 43px 43px 0;
+    font-weight: 600;
+    font-size: 35px;
+    line-height: 150%;
+    color: #050505;
+}
+
+.img{
+    background-image: url(/Ok-Acquired/Images/Group\ 3942.png);
+}
+.footer{
+    background: #FBFBFB;
+}
+.footer .nav-link{
+    font-weight: 500;
+}
+.all-rights-reserved{
+    background: #F2F2F2;
+}
+.contact-info , .pages , .subscribe{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 164%;
+    color: #000000;
+}
+.social-media ul{
+    width: 120px;
+    display: flex;
+    justify-content: space-between;
+}
+.subscribe-btn{
+    padding: 14.2105px 20.8421px;
+    background: #FFDD00;
+    box-shadow: 0px 7.57895px 13.2632px rgba(255, 221, 0, 0.2);
+    border-radius: 12px;
+    margin-left: -20px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 26px;
+}
+.form-control{
+    background: #F2F2F2;
+    border-radius: 12px 0 0 12px;
+    padding-right: 40px;
+    border: transparent;
+    border-radius: 6px;
+}
+.form-control:focus{
+    background: #F2F2F2;
+    box-shadow: none;
+    border-color:#F2F2F2;
+}
+
+@media only screen and (max-width: 1024px) {
+    .guide-me-section img{
+        display: none;
+    }
+    .navbar{
+        background: #FFFFFF;
+        box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.05);
+    }
+
+}
+@media only screen and (max-width: 990px) {
+    .heading{
+        font-size: 30px;
+        line-height: 40px;
+    }
+    .banner_margin_top{
+        margin-top: 50px;
+    }
+    .testimonial{
+        padding: 12px 0;
+    }
+    .testimonials-section .text-padding , .how-it-works .text-padding{
+        padding: 0;
+    }
+    .testimonials-section img {
+        width: 30%;
+    }
+    .guide-me-section h4 {
+        font-size: 30px;
+    }
+    .contact-info , .pages , .subscribe{
+        margin-top: 20px;
+    }
+}

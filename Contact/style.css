@@ -1,0 +1,60 @@
+.help h3{
+    font-weight: 700;
+    font-size: 44px;
+    line-height: 110%;
+    letter-spacing: -0.01em;
+    color: #000000;
+}
+
+.help h4{
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 107.69%;    
+    letter-spacing: 0.005em;  
+    color: #000000;
+    margin: 20px 0;
+}
+
+.help p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 107.69%;
+    letter-spacing: 0.005em;
+    color: #707070;
+}
+.contact_info h3 , .contact-form h3{
+    font-weight: 600;
+    font-size: 28px;
+    line-height: 114.69%;
+    letter-spacing: -0.015em;
+    color: #000000;
+    margin-bottom: 32px;
+}
+.contact_info{
+    background-color: #FBFBFB;
+    padding-top: 40px;
+    padding-bottom: 40px;
+}
+.contact_info .card{
+    background: #FFFFFF;
+    opacity: 0.8;
+    box-shadow: 0px 9px 34px rgba(0, 0, 0, 0.05);
+    border: transparent;
+    border-radius: 20px;
+    padding: 22px;    
+}
+.contact_info p{
+    font-weight: 500;
+    font-size: 21.861px;
+    line-height: 107.69%;
+    letter-spacing: 0.005em;
+    color: #5C5C5C;
+}
+.contact_info a{
+    font-weight: bold;
+    font-size: 22px;
+    line-height: 107.69%;
+    letter-spacing: -0.005em;
+    color: #000000;
+    text-decoration: none;
+}

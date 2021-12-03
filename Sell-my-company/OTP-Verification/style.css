@@ -1,0 +1,66 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+a{
+    text-decoration: none;
+}
+body{
+    font-family: 'Manrope', sans-serif;
+    content: "";
+    width: 100%;
+    background-image: url(/Ok-Acquired/Sell-my-company/Images/Group\ 3912.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+}
+.btn-color{
+    background: #FFDD00;
+    box-shadow: 0px 8px 14px rgba(255, 221, 0, 0.2);
+    border-radius: 6px;
+    padding: 14px 22px;
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 27px;
+    color: #050505;
+}
+.btn-color:focus{
+    box-shadow: none;
+}
+.btn:focus{
+    box-shadow: none;
+}
+
+.description{
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 22.72px;
+    color: #707070;
+}
+.card{
+    background: #FFFFFF;
+    box-shadow: 0px 19px 64px rgba(0, 0, 0, 0.06);
+    border-radius: 20px;
+    border: #FFFFFF;
+
+}
+.form-control{
+    width: 20%;
+    border-top:transparent;
+    border-right:transparent;
+    border-bottom: 2px solid #D8D8D8;
+    border-left:transparent;
+    border-radius:0px;
+}
+.form-control:focus{
+    box-shadow: none;
+}
+@media screen and (min-width:700px){
+    
+    .card-width{
+        width: 30rem;
+    }
+}
+
+

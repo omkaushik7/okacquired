@@ -1,0 +1,206 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+@import url('https://fonts.googleapis.com/css2?family=Manrope:wght@200;300;400;500;600;700;800&display=swap');
+body{
+    font-family: 'Manrope', sans-serif;
+    content: "";
+    max-width: 100%;
+    background-image: url(/Ok!Acquired/Sell-my-company/Images/Group\ 3912.png);
+    background-repeat: no-repeat;
+    background-position: bottom;
+    background-attachment: fixed;
+    
+}
+
+.navbar{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.05);
+    z-index: 9999;
+}
+.vertical{
+    background: #FFFFFF;
+    box-shadow: 0px 6px 18px rgba(0, 0, 0, 0.05);
+    height: 100vh;
+}
+.bg{
+    background: #FFF9D1;
+    width: 245px;
+    height: 58px;
+}
+.welcome-section .card{
+    background: #FFDD00;
+    border: transparent;
+    border-radius: 12px;
+}
+.welcome-section .btn{
+    background: #FFFFFF;
+    border-radius: 8px;
+    box-shadow: 0px 12px 22px rgba(0, 0, 0, 0.06);
+    padding: 10px 22px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 142%;
+    letter-spacing: -0.005em;
+    color: #000000;
+
+}
+.btn:focus , .form-control:focus , .form-select:focus{
+    box-shadow: none;
+    border-color:#F5F5F5;
+    background-color: #F2F2F2;
+}
+.form-control , .form-select{
+    background-color: #F5F5F5;
+    border-radius: 6px;
+    width: 100%;
+    height: 40px;
+    border: transparent;
+}
+.bad-pricing .form-control{
+    border: 1px solid #FF1E1E;
+}
+/* tooltip */
+
+.avatar {
+    position: relative;
+}
+  
+.avatar::before,
+.avatar::after {
+    --scale: 0;
+    --arrow-size: 10px;
+    --tooltip-color: rgb(255, 255, 255);
+  
+    position: absolute;
+    top: -.25rem;
+    left: 50%;
+    transform: translateX(-95%) translateY(var(--translate-y, 0)) scale(var(--scale));
+    transition: 150ms transform;
+    transform-origin: bottom center;
+}
+  
+.avatar::before {
+    --translate-y: calc(60% - var(--arrow-size));
+  
+    content: attr(data-tooltip);
+    padding:14px;
+    width:226px;
+    background: #FFFFFF;
+    box-shadow: 0px 3px 28px rgba(0, 0, 0, 0.1);
+    border-radius: 8px; 
+    font-weight: 600;
+    font-size: 10px;
+    line-height: 159.19%;
+    color: rgba(0, 0, 0, 0.65);
+
+}
+  
+.avatar:hover::before,
+.avatar:hover::after {
+  --scale: 1;
+}
+  
+.avatar::after {
+    --translate-y: calc(1 * var(--arrow-size));
+  
+    content: '';
+    left: -6px;
+    border: var(--arrow-size) solid transparent;
+    border-top-color: var(--tooltip-color);
+    transform-origin:bottom center;
+    transform: rotate(180deg);
+}
+
+
+
+      
+.form-label{
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 142%;
+    letter-spacing: -0.005em;
+    color: #707070;
+    margin-top: 20px;
+    margin-bottom: 6px;
+}
+.company-listing_intellectual-property .card , .forms .card{
+    background: #FFFFFF;
+    box-shadow: 0px 10px 40px rgba(0, 0, 0, 0.05);
+    border: transparent;
+    border-radius: 12px;
+}
+.company-listing_intellectual-property h3{
+    font-weight: 600;
+    font-size: 31px;
+    line-height: 124.5%;
+    letter-spacing: -0.005em;
+    color: #000000;
+    width: max-content;
+}
+.forms h3{
+    font-weight: bold;
+    font-size: 28px;
+    line-height: 38px;
+    color: #181818;
+    padding-top: 32px;
+    padding-left: 7px;
+}
+.forms .card .card-body{
+    padding: 0 32px 32px;
+}
+.badge{
+    background: #FFDD00;
+    border-radius: 4px;
+    padding: 4.72727px 9.45455px;
+    font-weight: 600;
+    font-size: 8px;
+    line-height: 142%;
+    letter-spacing: -0.005em;
+    color: #000000;
+}
+.form-check-input:checked[type=radio]{
+    background-image: url(/Ok-Acquired/Dashboard/Images/inputchecked.png);
+}
+.form-check-input:checked{
+    background-color: #ffffff;
+    border-color:#ffffff;
+}
+.form-check-input:focus{
+    box-shadow: none;
+}
+.form-check-input.is-valid, .was-validated .form-check-input:valid , .form-check-input.is-valid:checked, .was-validated .form-check-input:valid:checked{
+    border-color: #adacac;
+    background-color: #ffffff;
+}
+.form-control[type=file]{
+    background: #ffff;
+    border: transparent;
+}
+.form-select option{
+    background: #282828;
+    color:#FFFFFF;
+    border-radius: 8px;
+    border: transparent;
+}
+.form-select option:hover{
+    background-color: #FFDD00;
+}
+.btn-color{
+    background: #FFDD00;
+    box-shadow: 0px 8px 14px rgba(255, 221, 0, 0.2);
+    border-radius: 6px;
+    padding: 14px 22px;
+    font-weight: bold;
+    font-size: 18px;
+    line-height: 25px;
+    color: #000000;
+}
+
+
+@media screen and (max-width:770px){
+    .vertical{
+        display: none;
+    }
+}

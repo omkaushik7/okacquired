@@ -1,0 +1,85 @@
+*{
+    margin: 0;padding: 0;
+}
+
+.heading h2{
+    font-weight: 800;
+    font-size: 42px;
+    line-height: 40px;
+    text-align: center;
+    color: #050505;
+}
+.heading p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 107.69%;
+    letter-spacing: 0.005em;
+    color: #707070;    
+}
+h5{
+    font-weight: 800;
+    font-size: 30px;
+    line-height: 107.69%;
+    letter-spacing: 0.005em;
+    color: #000000;
+}
+.description{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 182.69%;
+    letter-spacing: 0.005em;
+    color: #707070;
+    margin-top:20px;
+}
+.stats{
+    background-color: #FBFBFB;
+}
+.section-heading h2{
+    padding:0 160px;
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 49px;
+    text-align: center;
+    color: #050505; 
+    overflow-wrap: break-word;   
+}
+.how-okacquired-helps .card{
+    background: #FFFFFF;
+    box-shadow: 0px 9px 34px rgba(0, 0, 0, 0.05);
+    border-radius: 21px;
+    width: 270px;
+    height: 260px;
+    margin: auto;
+    padding:28px 24px;
+    border: transparent;
+}
+.how-okacquired-helps .card h5{
+    font-weight: bold;
+    font-size: 20px;
+    line-height: 34px;
+    color: #050505;
+}
+
+.how-okacquired-helps .card-text{
+    font-size: 15px;
+    color: #707070;
+
+}
+.how-okacquired-helps .badge-color{
+    background: #FFF9D1;
+    border-radius: 8px;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 22px;
+    color: #717171;
+    padding: 6px 14px;
+}
+
+@media only screen and (max-width: 990px) {
+    .section-heading h2{
+        padding:0;
+    }
+    .how-okacquired-helps .card{
+        width: 100%;
+    }
+}

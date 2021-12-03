@@ -1,0 +1,57 @@
+.hero-section h3{
+    font-weight: 800;
+    font-size: 40px;
+    line-height: 60px;
+    color: #050505;
+}
+.hero-section p{
+    font-weight: 500;
+    font-size: 22px;
+    line-height: 30px;
+    color: #707070;
+}
+.how-okacquired-work h3{
+    font-weight: 800;
+    font-size: 36px;
+    line-height: 107.69%;
+    text-align: center;
+    letter-spacing: 0.005em;
+    color: #000000;
+    padding: 0 140px;
+}
+.how-okacquired-work .btn {
+    border:transparent;
+    box-sizing: border-box;
+    border-radius: 37px;
+    padding: 14px 28px;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 27px;
+    color: #050505;
+}
+.how-okacquired-work .btn.Active {
+    background: #FFDD00;
+    box-shadow: 0px 8px 14px rgba(255, 221, 0, 0.2);
+    border: transparent;
+    border-radius: 37px;
+    padding: 14px 28px;
+}
+.setup-your-account h4 , .discover-deals h4 , .get-best-deal h4{
+    font-weight: bold;
+    font-size: 30px;
+    line-height: 41px;
+    text-align: center;
+    color: #000000;
+}
+.how-okacquired-work .card{
+    border: transparent;
+    background: #FFDD00;
+    border-radius: 16px;    
+}
+.setup-your-account p , .discover-deals p , .get-best-deal p{
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 25px;
+    color: #707070;
+    text-align: center;
+}
