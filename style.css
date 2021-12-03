@@ -148,7 +148,7 @@ a:hover{
 
 }
 .how-it-works .bg-color:hover{
-    background-image:url(/Ok-Acquired/Images/Path\ 14.png);
+    background-image:url(/Images/Path\ 14.png);
 }
 
  /* --------testimonials-section------------------------- */
@@ -164,7 +164,7 @@ a:hover{
     left: 0;
     width: 100%;
     height: 940px;
-    background-image: url(/Ok-Acquired/Images/testimonial_bg.png);
+    background-image: url(/Images/testimonial_bg.png);
     background-size: 908px;
     background-repeat: no-repeat;
     background-position: center;
@@ -220,12 +220,12 @@ a:hover{
     background: #FBFBFB;
 }
 .carousel-control-prev-icon{
-    background-image: url(/Ok-Acquired/Images/previous-icon.png);
+    background-image: url(/Images/previous-icon.png);
     width: 4rem;
     height: 3rem;
 }
 .carousel-control-next-icon{
-    background-image: url(/Ok-Acquired/Images/next-icon.png);
+    background-image: url(/Images/next-icon.png);
     width: 4rem;
     height: 3rem;
 }
@@ -252,11 +252,11 @@ a:hover{
     color: #707070;
 }
 .asked-questions .accordion .card_header:after {
-    content: url(/Ok-Acquired/Images/Minus.png);
+    content: url(/Images/Minus.png);
     float: right; 
 }
 .asked-questions .accordion .card_header.collapsed:after {
-    content: url(/Ok-Acquired/Images/Plus.png); 
+    content: url(/Images/Plus.png); 
     float:right;
 }
 .guide-me-section{
@@ -275,7 +275,7 @@ a:hover{
     border: transparent;
     border-radius: 63px 0 65px 0;
     padding: 0 0 47px;
-    background-image: url(/Ok-Acquired/Images/Group\ 3945.png);
+    background-image: url(/Images/Group\ 3945.png);
     background-repeat: no-repeat;
     background-position:center;
 }
@@ -293,7 +293,7 @@ a:hover{
 }
 
 .img{
-    background-image: url(/Ok-Acquired/Images/Group\ 3942.png);
+    background-image: url(/Images/Group\ 3942.png);
 }
 .footer{
     background: #FBFBFB;
