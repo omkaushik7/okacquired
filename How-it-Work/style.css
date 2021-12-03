@@ -55,3 +55,9 @@
     color: #707070;
     text-align: center;
 }
+
+@media screen and (max-width:770px){
+    .how-okacquired-work h3{
+        padding:0px;
+    }
+}
